@@ -50,3 +50,7 @@ func _on_mob_timer_timeout():
 
 	# Spawn the mob by adding it to the Main scene.
 	add_child(mob)
+
+
+func _on_node_2d_start_game():
+	pass # Replace with function body.

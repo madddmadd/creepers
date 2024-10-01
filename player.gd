@@ -50,3 +50,7 @@ func _on_area_entered(area):
 func _on_body_entered(body):
 	hide() # Player disappears after being hit.
 	hit.emit()
+
+
+func _on_hit():
+	pass # Replace with function body.

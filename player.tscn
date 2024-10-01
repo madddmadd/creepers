@@ -32,8 +32,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r5aas"]
-radius = 53.0
-height = 142.0
+radius = 33.0
+height = 72.0
 
 [node name="player" type="Area2D"]
 script = ExtResource("1_qh53m")
@@ -41,6 +41,7 @@ script = ExtResource("1_qh53m")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 modulate = Color(1, 0, 0, 1)
 self_modulate = Color(0.917289, 0.427435, 1, 1)
+scale = Vector2(0.611111, 0.455556)
 sprite_frames = SubResource("SpriteFrames_onh22")
 animation = &"up"
 

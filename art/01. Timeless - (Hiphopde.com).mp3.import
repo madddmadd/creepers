@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://x58kq0xwoqmm"
+path="res://.godot/imported/01. Timeless - (Hiphopde.com).mp3-b2c954268ae2c52d2c9185f7b2bfb9a1.mp3str"
+
+[deps]
+
+source_file="res://art/01. Timeless - (Hiphopde.com).mp3"
+dest_files=["res://.godot/imported/01. Timeless - (Hiphopde.com).mp3-b2c954268ae2c52d2c9185f7b2bfb9a1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

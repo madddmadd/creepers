@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://ui.gd" id="1_hn0br"]
 [ext_resource type="FontFile" uid="uid://dfenr243ts7vx" path="res://fonts/Xolonium-Regular.ttf" id="2_fjvyw"]
 
-[node name="Node2D" type="CanvasLayer"]
+[node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_hn0br")
 
 [node name="Message" type="Label" parent="."]
@@ -24,7 +24,7 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="ScoreLabel" type="Label" parent="."]
-anchors_preset = -1
+anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -21.0

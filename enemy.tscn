@@ -45,17 +45,16 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_khb2a"]
-radius = 110.549
+radius = 53.1601
 
-[node name="mob" type="RigidBody2D"]
+[node name="mob" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
 mass = 0.01
 gravity_scale = 0.0
 script = ExtResource("1_erxey")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(19.25, 3)
-scale = Vector2(1.35321, 1.03947)
+scale = Vector2(0.793577, 0.585524)
 sprite_frames = SubResource("SpriteFrames_oj38x")
 animation = &"fly"
 
@@ -63,7 +62,7 @@ animation = &"fly"
 shape = SubResource("CircleShape2D_khb2a")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
-position = Vector2(1.25, 11)
+position = Vector2(335, 222)
 scale = Vector2(15.275, 12.65)
 
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
